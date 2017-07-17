@@ -1,0 +1,38 @@
+/*Image Gallery*/
+#gallery {
+  background-color:#9c9a97;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:80%;
+  margin: 70px auto;
+  border:1px solid gray;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.gallery-img {
+  width:150px;
+  height:150px;
+  background-color:black;
+  margin: 12.5px 2px;
+  box-shadow: 5px 5px 3px gray;
+  border-radius: 4px;
+}
+
+div img:nth-child(2) {
+  clear: right;
+}
+
+
+@media (max-width: 767px) {
+
+  #gallery {
+    width: 90%;
+
+  }
+
+  .gallery-img {
+
+  }
+}

@@ -1,0 +1,46 @@
+/*Bio Elements*/
+#bio {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 250px;
+	margin: 70px auto 0px auto;
+	background-color:#9c9a97;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+img {
+	display: inline-block;
+	border: 0.5px solid black;
+	border-radius: 8px;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.bio-content {
+	margin: 0px 20px;
+	width: 80%;
+}
+
+.bio-content p {
+	margin: 10px 0px;
+}
+
+
+
+@media (max-width: 767px) {
+
+#bio {
+	min-height: 250px;
+}
+
+.bio-content {
+	float: left;
+	margin: 0px 0px 0px 10px;
+	width: 100%;
+}
+
+
+}

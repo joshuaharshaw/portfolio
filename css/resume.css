@@ -1,0 +1,98 @@
+/* Main Resume*/
+.resume {
+	padding: 10px;
+	width: 90%;
+	margin: 30px auto;
+	min-height: 500px;
+	overflow: auto;
+	background-color: #fff;
+}
+
+.resume h2 {
+	text-align: center;
+	margin: 10px;
+}
+.resume > p {
+	text-align: center;
+}
+
+/* Left Side- Education */
+.left-side {
+	float: left;
+	width: 50%;
+}
+
+.education {
+	min-height: 150px;
+	margin: 20px 0px;
+	overflow: auto;
+}
+
+.edu-img {
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+.edu-content {
+	float: left;
+	margin-left: 10px;
+	width: 70%;
+}
+
+.edu-content p {
+	margin-top: 5px;
+}
+
+/* Technologies and sites */
+
+.experience {
+	margin-top: 30px;
+	overflow: auto;
+}
+h4 {
+	margin-bottom: 10px;
+}
+
+
+.tech {
+	float: left;
+	height: 150px;
+	margin:5px;
+}
+
+.tech ul {
+	list-style: none;
+	padding: 0px;
+	width: 50%;
+}
+
+.sites {
+	float: left;
+	width: 50%;
+	min-height: 150px;
+	margin:5px;
+	overflow: auto;
+}
+
+.sites a {
+	display: inline-block;
+}
+
+.port-link {
+	width: 64px;
+	height: 64px;
+	margin: 5px 10px;
+}
+
+/*Right Side- Work Experience */
+.right-side {
+	float: right;
+	width: 50%;
+}
+
+.job {
+	min-height: 150px;
+	margin: 20px 0px;
+	overflow: auto;
+}
